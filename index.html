@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Carousel Task</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="intro-div">
+            <h1> Welcome to My Aquatic World Carousel</h1>
+            <p>This is my Zuri Week 6&7 Task.</p>
+            <p>I hope you enjoy it.</p>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carouselImages fade">
+                <img src="./images/School of Fish.jpg" style="width:100%">
+                <div class="caption col"> A School of Fish </div>
+            </div>
+            
+            <div class="carouselImages fade">
+                <img src="./images/Dolphine.jpg" style="width:100%">
+                <div class="caption"> Dolphins </div>
+            </div>
+
+            <div class="carouselImages fade">
+                <img src="./images/Lotus Flower.jpg" style="width:100%">
+                <div class="caption"> A Lotus Flower </div>
+            </div>
+            
+            <div class="carouselImages fade">
+                <img src="./images/Goldfish.jpg" style="width:100%">
+                <div class="caption"> Goldfishes </div>
+            </div>
+
+            <div class="carouselImages fade">
+                <img src="./images/Grey Shark.jpg" style="width:100%">
+                <div class="caption"> A Grey Shark</div>
+            </div>
+            
+            <div class="carouselImages fade">
+                <img src="./images/Seagrass.jpg" style="width:100%">
+                <div class="caption"> A Seagrass</div>
+            </div>  
+            
+            <a class="previous-icon" onclick="plusCarousels(-1)"> ❮ </a>
+            <a class="next-icon" onclick="plusCarousels(1)"> ❯ </a>
+        </div>
+        <br>
+            
+        <div style="text-align:center">
+            <span class="dot" onclick="currentCarousel(1)"></span> 
+            <span class="dot" onclick="currentCarousel(2)"></span> 
+            <span class="dot" onclick="currentCarousel(3)"></span> 
+            <span class="dot" onclick="currentCarousel(4)"></span> 
+            <span class="dot" onclick="currentCarousel(5)"></span> 
+            <span class="dot" onclick="currentCarousel(6)"></span> 
+        </div>
+
+        <div class="closing-div">
+            <h4> Thank you for your time!</h4>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
